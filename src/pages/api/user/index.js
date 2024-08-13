@@ -6,7 +6,7 @@ import { useQuery } from "@tanstack/react-query";
 const AuthAPI = () => {
   if (typeof window !== "undefined") {
     return axios.create({
-      baseURL: `https://shopwrite-backend.onrender.com/`,
+      baseURL: `https://shopwrite-backend.onrender.com/v1/`,
       headers: {
         authorization: `Bearer ${localStorage.getItem("token")}`,
         "Content-Type": "application/json",

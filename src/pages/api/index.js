@@ -1,6 +1,6 @@
 import axios from "axios";
 const API = axios.create({
-  baseURL: "https://shopwrite-backend.onrender.com/",
+  baseURL: "https://shopwrite-backend.onrender.com/v1/",
   headers: {
     "Content-Type": "application/json",
   },
